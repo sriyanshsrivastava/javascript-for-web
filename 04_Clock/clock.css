@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: bisque;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid red; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock-title{
+    font-family: 'Orbitron', sans-serif;
+    font: weight 200px;
+    /* font-size: 1rem; */
+    text-transform: uppercase;
+    color:black;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+#clock{
+    /* border:2px solid yellow; */
+    display: inline-flex;
+    background-color:orange;
+    height: 100px;
+    width:25%;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    width: min(80%, 400px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+#clock span{
+    color:rgb(0, 0, 0);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    /* width: min(80%, 400px); */
+}

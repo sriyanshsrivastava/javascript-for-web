@@ -1,0 +1,14 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: #f27979;
+    color:black;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+form{
+    border:2px solid white;
+}
